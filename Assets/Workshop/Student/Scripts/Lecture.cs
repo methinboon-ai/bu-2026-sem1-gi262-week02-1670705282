@@ -26,19 +26,19 @@ namespace Assignment
         {
             string[] _ironManSuit = new string[2];
             // _ironManSuit[-1]
-            _ironManSuit[0] = "Mark I"
-            _ironManSuit[1] = "Mark II"
+            _ironManSuit[0] = "Mark I";
+            _ironManSuit[1] = "Mark II";
             string currentSuit = _ironManSuit[0];
-            Debug.Log("Current Suit is " + currentSuit)
+            Debug.Log("Current Suit is " + currentSuit);
             Debug.Log("Room Size is " + _ironManSuit.Length);
-            Debug.Log("1. " + _ironManSuit[0])
-            Debug.Log("2. " + _ironManSuit[1])
+            Debug.Log("1. " + _ironManSuit[0]);
+            Debug.Log("2. " + _ironManSuit[1]);
         }
 
         public void LCT02_ArrayInitialize()
         {
-            string[] spidermanSuits = new string[] {"Classic", "Black Suit", "Iron Spider"};
-            string[] batmanSuits = new string[2] {"Classic", "White"}
+            string[] spidermanSuits = new string[] { "Classic", "Black Suit", "Iron Spider" };
+            string[] batmanSuits = new string[2] { "Classic", "White" };
 
             Debug.Log("Room Size : " + spidermanSuits.Length);
             Debug.Log("1. " + spidermanSuits[0]);
@@ -65,11 +65,13 @@ namespace Assignment
          */
         public void LCT03_SyntaxLoop()
         {
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 10; i++)
+            {
                 Debug.Log("<10 : " + i);
             }
             Debug.Log("======================");
-            for (int i = 1; i <= 10; i++) {
+            for (int i = 1; i <= 10; i++)
+            {
                 Debug.Log("<=10 : " + i);
             }
         }
@@ -104,11 +106,13 @@ namespace Assignment
         public void LCT04_LoopAndArray()
         {
             Debug.Log("======= Log by One incrementer =======");
-            for (int i = 0; i < lct04_ironManSuitNames.Length; i++) {
+            for (int i = 0; i < lct04_ironManSuitNames.Length; i++)
+            {
                 Debug.Log(lct04_ironManSuitNames[i]);
             }
             Debug.Log("======= Log by Two incrementer =======");
-            for (int i = 0; i < lct04_ironManSuitNames.Length; i += 2) {
+            for (int i = 0; i < lct04_ironManSuitNames.Length; i += 2)
+            {
                 Debug.Log(lct04_ironManSuitNames[i]);
             }
         }
@@ -145,14 +149,16 @@ namespace Assignment
          */
         public void LCT05_Syntax2DArray()
         {
-            int[,] my2DArray = new int[3,3]{
+            int[,] my2DArray = new int[3, 3]{
                 {1,2,3},
                 {4,5,6},
                 {7,8,9}
             };
-            for (int row = 0; row < my2DArray.GetLength(0); row++) {
-                string rowStr = ""; 
-                for (int col = 0; col < my2DArray.GetLength(1); col++) {
+            for (int row = 0; row < my2DArray.GetLength(0); row++)
+            {
+                string rowStr = "";
+                for (int col = 0; col < my2DArray.GetLength(1); col++)
+                {
                     rowStr += my2DArray[row, col] + " ";
                 }
                 Debug.Log(rowStr);
