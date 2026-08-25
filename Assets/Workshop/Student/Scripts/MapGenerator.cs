@@ -60,7 +60,7 @@ namespace Workshop.Student
             int midY = rows / 2;
             for (int y = 0; y <= midY; y++)
             {
-                Debug.Log($"{midX}, {y}");
+                // Debug.Log($"{midX}, {y}");
                 int r = UnityEngine.Random.Range(0, wallTiles.Length);
                 GameObject tiles = Instantiate(wallTiles[r], new Vector2(midX, y), Quaternion.identity);
                 tiles.name = "Obstacle" + midX + "_" + y;
