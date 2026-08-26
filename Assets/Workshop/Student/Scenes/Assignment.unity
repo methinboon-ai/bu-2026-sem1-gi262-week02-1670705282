@@ -173,11 +173,11 @@ MonoBehaviour:
   - {fileID: 4018252664251982846, guid: 0603b002125343345830af079f75689f, type: 3}
   - {fileID: 6338718052967692477, guid: 4344d40571f47834fb66e2019c9b3176, type: 3}
   - {fileID: 6447585732716477075, guid: fc041445e99b67f4398f47be2d0833ad, type: 3}
-  as02_columns: 3
-  as02_rows: 3
+  as02_columns: 9
+  as02_rows: 10
   as03_wall: {fileID: 5291166318002269242, guid: 413c1aa8e8dffdd448102fbcf99aaf6d, type: 3}
-  as03_columns: 5
-  as03_rows: 5
+  as03_columns: 9
+  as03_rows: 10
   as04_enemyHP: 0a000000140000001e000000
   as04_damage: 5
   as04_target: 2
@@ -347,7 +347,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257016738}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
@@ -399,7 +399,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0.025
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
